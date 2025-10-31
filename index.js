@@ -21,7 +21,7 @@ const app=express();
 //middlewares
 app.use(cors({
     credentials: true,
-    origin:'http://localhost:5173'
+    origin:'https://local-eye-frontend.vercel.app/'
 }))
 app.use(express.json());
 app.use(cookieParser());
