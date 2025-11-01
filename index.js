@@ -21,7 +21,7 @@ const app=express();
 //middlewares
 app.use(cors({
     credentials: true,
-    origin:['https://localhost:5173'],
+    origin:['http://localhost:5173'],
     methods: ['GET','POST','PUT','DELETE','OPTIONS'],
 }))
 app.use(express.json());
