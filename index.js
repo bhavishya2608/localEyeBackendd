@@ -21,7 +21,7 @@ const app=express();
 //middlewares
 app.use(cors({
     credentials: true,
-    origin:['http://localhost:5173','https://local-eye-frontend.vercel.app/'],
+    origin:['http://localhost:5173','https://local-eye-frontend.vercel.app'],
     methods: ['GET','POST','PUT','DELETE','OPTIONS'],
 }))
 app.use(express.json());
